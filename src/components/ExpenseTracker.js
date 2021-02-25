@@ -93,7 +93,7 @@ function ExpenseTracker() {
               required
             />
             <br />
-            <input type="submit" value="Add transaction" />
+            <input type="submit" value="Add transaction" className="btn"/>
           </label>
         </form>
       </div>
