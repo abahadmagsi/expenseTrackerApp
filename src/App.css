@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgb(214 214 214);
+  min-height: 500px;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.heading {
+  text-align: center;
+}
+.expense-container {
+  background-color: #ececec;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 2px 2px grey;
+}
+.transaction-list {
+  max-height: 170px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.transaction-list > li {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #ececec;
+  font-size: larger;
+  border-radius: 10px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px grey;
+  margin-top: 10px;
+}
+.add-trans input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+
+.btn{
+  cursor: pointer;
+  padding: 10;
+}
